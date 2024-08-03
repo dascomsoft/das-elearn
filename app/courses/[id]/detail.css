@@ -1,0 +1,480 @@
+main {
+  /*SKILL CONTAINER*/
+}
+main .detail-header {
+  background-image: radial-gradient(rgba(20, 21, 51, 0.8), rgba(20, 21, 51, 0.8)), url(../../../images/soft3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 180px 0 50px;
+}
+main .detail-header .detail-content {
+  display: grid;
+  place-items: center;
+  gap: 20px;
+}
+main .detail-header .detail-content .description {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  font-size: 18px;
+}
+@media (max-width: 600px) {
+  main .detail-header .detail-content .description {
+    width: 200px;
+  }
+}
+main .detail-header .detail-description {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 20px;
+}
+@media (max-width: 700px) {
+  main .detail-header .detail-description {
+    width: 350px;
+  }
+}
+@media (max-width: 500px) {
+  main .detail-header .detail-description {
+    width: 300px;
+  }
+}
+main .detail-header .detail-description .icons {
+  font-size: 40px;
+}
+main .detail-header .detail-description .text {
+  font-size: 18px;
+}
+main #image-detail {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .btn-detail {
+  background-image: linear-gradient(#008000, #006400);
+  width: 300px;
+  max-width: 400px;
+  padding: 10px 0 10px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+  transition: 0.9s;
+}
+main .btn-detail:hover {
+  transform: scale(1.05);
+  background-image: linear-gradient(rgb(128, 0, 0), rgb(100, 0, 0));
+  color: #fff;
+}
+main .action {
+  padding: 40px 0 30px;
+}
+main .action .action-button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+@media (max-width: 900px) {
+  main .action .action-button {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+main .action .action-button .skill,
+main .action .action-button .program,
+main .action .action-button .teacher,
+main .action .action-button .testimony {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+main .action .action-button .skill:hover,
+main .action .action-button .program:hover,
+main .action .action-button .teacher:hover,
+main .action .action-button .testimony:hover {
+  color: rgb(235, 235, 7);
+}
+main .action .action-button .skill, main .action .action-button .testimony, main .action .action-button .program, main .action .action-button .teacher {
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  transition: all ease;
+}
+main .action .action-button .skill:hover, main .action .action-button .testimony:hover, main .action .action-button .program:hover, main .action .action-button .teacher:hover {
+  transform: scale(1.03);
+}
+main .action .action-button .skill {
+  background: #8a2be2;
+}
+main .action .action-button .program {
+  background: rgb(23, 118, 118);
+}
+main .action .action-button .testimony {
+  background: #6c757d;
+}
+main .action .action-button .teacher {
+  background: #1d5390;
+}
+main .skill-container {
+  background: radial-gradient(silver, rgb(188, 177, 177));
+  padding: 50px 0 50px;
+}
+main .skill-container .skill-header {
+  text-align: center;
+}
+main .skill-container .skill-content {
+  padding: 50px 0 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+@media (max-width: 1000px) {
+  main .skill-container .skill-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 750px) {
+  main .skill-container .skill-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+main .skill-container .skill-content .skill-block {
+  position: relative;
+  background-color: #e1dddd;
+  cursor: pointer;
+  border-radius: 20px;
+}
+main .skill-container .skill-content .skill-block .skill-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  flex-direction: column;
+}
+main .skill-container .skill-content .skill-block #skill-image {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .skill-container .skill-content .skill-block .skill-descrip {
+  position: absolute;
+  top: 0;
+  height: 0px;
+  padding: 80px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+  background-color: azure;
+  transition: 0.5s ease;
+  opacity: 0;
+}
+main .skill-container .skill-content .skill-block:hover .skill-descrip {
+  height: 300px;
+  opacity: 1;
+}
+main .program-wrapper {
+  padding: 100px 0 100px;
+}
+main .program-wrapper .program-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+main .program-wrapper .program-container .program-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5px;
+}
+@media (max-width: 1000px) {
+  main .program-wrapper .program-container .program-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+main .program-wrapper .program-container .program-content .program-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+@media (max-width: 1000px) {
+  main .program-wrapper .program-container .program-content .program-images {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+main .program-wrapper .program-container .program-content .program-images #pic {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+main .story-section {
+  background-image: radial-gradient(ghostwhite, silver);
+  padding: 100px 0 100px;
+}
+main .story-section .story-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+@media (max-width: 1200px) {
+  main .story-section .story-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  main .story-section .story-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+main .story-section .story-container .story-detail {
+  border: 3px solid #8a2be2;
+  padding: 10px;
+  border-radius: 20px;
+  transition: all 0.9s;
+}
+main .story-section .story-container .story-detail:hover {
+  transform: translateY(-10px);
+}
+main .story-section .story-container .story-detail #student-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  border: 2px solid #8a2be2;
+}
+main .story-section .story-container .story-detail #student-image:hover {
+  border: 1px solid #fff;
+}
+main .story-section .story-container .story-detail .icon {
+  font-size: 40px;
+  color: #8a2be2;
+}
+main .story-section .story-container .story-detail h5 {
+  font-weight: bolder;
+}
+main .team-section {
+  padding: 100px 0 50px;
+  background-color: #e4e4e4;
+}
+main .team-section .team-header {
+  text-align: center;
+  margin-bottom: 100px;
+}
+main .team-section .team-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+@media (max-width: 700px) {
+  main .team-section .team-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+main .team-section .team-container .team-wrapper {
+  cursor: pointer;
+}
+main .team-section .team-container .team-wrapper .arrival-text {
+  padding: 10px;
+}
+main .team-section .team-container .team-wrapper .team-detail-1 {
+  background-image: radial-gradient(rgba(20, 21, 51, 0.1), rgba(20, 21, 51, 0.1)), url(../../../images/stu1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  transition: all 0.9s ease;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 3px silver;
+}
+main .team-section .team-container .team-wrapper .team-detail-1:hover {
+  background-image: radial-gradient(rgba(20, 21, 51, 0.6), rgba(20, 21, 51, 0.6));
+}
+main .team-section .team-container .team-wrapper .team-detail-1 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+main .team-section .team-container .team-wrapper .team-detail-1 .icons {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(140px);
+  padding: 10px 20px;
+  bottom: 50%;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.9s ease;
+}
+main .team-section .team-container .team-wrapper .team-detail-1 .icons svg {
+  border-radius: 100px;
+  height: 20px;
+  width: 20px;
+  background-color: orange;
+  padding: 3px;
+}
+main .team-section .team-container .team-wrapper .team-detail-1:hover .icons {
+  opacity: 1;
+  transform: translateX(-50%) translateY(80px);
+}
+main .team-section .team-container .team-wrapper .team-detail-2 {
+  background-image: radial-gradient(rgba(20, 21, 51, 0.1), rgba(20, 21, 51, 0.1)), url(../../../images/stu2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  transition: all 0.9s ease;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 3px silver;
+}
+main .team-section .team-container .team-wrapper .team-detail-2:hover {
+  background-image: radial-gradient(rgba(20, 21, 51, 0.6), rgba(20, 21, 51, 0.6));
+}
+main .team-section .team-container .team-wrapper .team-detail-2 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+main .team-section .team-container .team-wrapper .team-detail-2 .icons {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(140px);
+  padding: 10px 20px;
+  bottom: 50%;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.9s ease;
+}
+main .team-section .team-container .team-wrapper .team-detail-2 .icons svg {
+  border-radius: 100px;
+  height: 20px;
+  width: 20px;
+  background-color: orange;
+  padding: 3px;
+}
+main .team-section .team-container .team-wrapper .team-detail-2:hover .icons {
+  opacity: 1;
+  transform: translateX(-50%) translateY(80px);
+}
+main .team-section .team-container .team-wrapper .team-detail-3 {
+  background-image: radial-gradient(rgba(20, 21, 51, 0.1), rgba(20, 21, 51, 0.1)), url(../../../images/stu3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  transition: all 0.9s ease;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 3px #c0c0c0;
+}
+main .team-section .team-container .team-wrapper .team-detail-3:hover {
+  background-image: radial-gradient(rgba(20, 21, 51, 0.6), rgba(20, 21, 51, 0.6));
+}
+main .team-section .team-container .team-wrapper .team-detail-3 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+main .team-section .team-container .team-wrapper .team-detail-3 .icons {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(140px);
+  padding: 10px 20px;
+  bottom: 50%;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.9s ease;
+}
+main .team-section .team-container .team-wrapper .team-detail-3 .icons svg {
+  border-radius: 100px;
+  height: 20px;
+  width: 20px;
+  background-color: #ffa500;
+  padding: 3px;
+}
+main .team-section .team-container .team-wrapper .team-detail-3:hover .icons {
+  opacity: 1;
+  transform: translateX(-50%) translateY(80px);
+}
+
+.register-container {
+  background: linear-gradient(267deg, #e4e4e4 0.36%, #fcdddd 332.6%);
+  padding: 50px 0 100px;
+}
+.register-container .register-content {
+  display: flex;
+  gap: 80px;
+}
+@media (max-width: 1000px) {
+  .register-container .register-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.register-container .register-content .register-detail #register {
+  width: 100%;
+  height: 500px;
+}
+.register-container .register-content form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  width: 100%;
+  background-color: #d4d4d4;
+  padding: 30px;
+}
+.register-container .register-content form input {
+  border: 1px solid #c0c0c0;
+  background-color: transparent;
+  outline: none;
+  padding: 15px;
+}
+.register-container .register-content form #btn {
+  background-color: #969696;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #fff;
+  transition: all ease 0.5s;
+}
+.register-container .register-content form #btn:hover {
+  background: #6c757d;
+  transform: scale(1.03);
+}
+.register-container .register-content form .link {
+  text-decoration: none;
+  color: #8a2be2;
+}/*# sourceMappingURL=detail.css.map */

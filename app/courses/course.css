@@ -1,0 +1,48 @@
+/*Courses section*/
+.course-section .course-header {
+  background-image: radial-gradient(rgba(20, 21, 51, 0.9), rgba(20, 21, 51, 0.8)), url(../../images/soft1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 150px 0 50px;
+}
+.course-section .course-title {
+  padding: 100px 0 0px;
+}
+.course-section .course-content {
+  padding: 0 0 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+@media (max-width: 1200px) {
+  .course-section .course-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .course-section .course-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+.course-section .course-content .course-image {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.course-section .course-detail {
+  background-image: linear-gradient(whitesmoke, #f3f3f3);
+  display: grid;
+  place-items: center;
+  padding: 25px;
+  border-radius: 20px;
+  transition: all 0.9s;
+}
+.course-section .course-detail:hover {
+  transform: translateY(-10px);
+}/*# sourceMappingURL=course.css.map */

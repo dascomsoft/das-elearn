@@ -1,0 +1,172 @@
+@charset "UTF-8";
+.price-container {
+  background-image: radial-gradient(rgba(20, 21, 51, 0.1), rgba(20, 21, 51, 0.1)), url(../../images/niceback.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  line-height: 1;
+  padding: 200px 0 100px;
+}
+@media (max-width: 1000px) {
+  .price-container {
+    padding: 150px 0 50px;
+  }
+}
+.price-container .btn {
+  background-color: #292828;
+  color: #fff;
+  width: 200px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+.price-container .btn:hover {
+  transform: scale(1.05);
+  background-color: darkgreen;
+  color: #fff;
+}
+
+.subscribe-container {
+  background-color: ghostwhite;
+  padding: 100px 0 100px;
+}
+@media (max-width: 1000px) {
+  .subscribe-container {
+    padding: 70px 0 70px;
+  }
+}
+.subscribe-container .sub-header {
+  text-align: center;
+  font-weight: 900;
+  margin: 50px 0 100px;
+}
+.subscribe-container .subscribe-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+@media (max-width: 1000px) {
+  .subscribe-container .subscribe-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 800px) {
+  .subscribe-container .subscribe-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.subscribe-container .subscribe-content .sub-button {
+  background-color: transparent;
+  color: #000;
+  width: 100%;
+  border-radius: 30px;
+  padding: 10px 40px;
+  margin: 15px 0 15px;
+  border: 1px solid silver;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+.subscribe-container .subscribe-content .sub-button:hover {
+  transform: scale(1.05);
+  background-color: darkgreen;
+  color: #fff;
+}
+.subscribe-container .subscribe-content .subscribe-detail {
+  box-shadow: 0 2px 14px rgb(221, 220, 220);
+  border-radius: 15px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.subscribe-container .subscribe-content .subscribe-detail:hover {
+  transform: translateY(-10px);
+}
+.subscribe-container .subscribe-content .subscribe-detail .bg-1 {
+  background-color: #6c757d;
+}
+.subscribe-container .subscribe-content .subscribe-detail .bg-2 {
+  background: blueviolet;
+}
+.subscribe-container .subscribe-content .subscribe-detail .bg-3 {
+  background-color: rgb(6, 72, 72);
+}
+.subscribe-container .subscribe-content .subscribe-detail p {
+  margin-top: 17px;
+}
+.subscribe-container .subscribe-content .subscribe-detail p::before {
+  content: "✔";
+  color: green;
+  font-size: 1.2rem;
+}
+
+.about-review {
+  background-image: radial-gradient(rgba(20, 21, 51, 0.8), rgba(20, 21, 51, 0.8)), url(../../images/soft2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 90px 0 90px;
+}
+.about-review #pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+@media (max-width: 900px) {
+  .about-review {
+    padding: 50px 0 50px;
+  }
+}
+.about-review h3 {
+  font-size: 40px;
+  color: #fff;
+}
+.about-review .about-review-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+@media (max-width: 700px) {
+  .about-review .about-review-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.about-review .about-review-detail {
+  background: #f8f8ff;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  padding: 20px;
+  width: 50%;
+}
+@media (max-width: 900px) {
+  .about-review .about-review-detail {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 100%;
+  }
+}
+.about-review .about-review-detail img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.about-review .about-review-detail p {
+  font-size: 15px;
+}
+.about-review #move,
+.about-review #move2 {
+  margin-left: auto;
+}
+@media (max-width: 900px) {
+  .about-review #move,
+  .about-review #move2 {
+    margin-left: 0;
+  }
+}/*# sourceMappingURL=pricing.css.map */
