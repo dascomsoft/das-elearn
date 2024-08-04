@@ -6,6 +6,7 @@ import re2 from '../../images/ab2.jpg'
 import re3 from '../../images/bip.webp'
 
 import './pricing.css'
+import Link from 'next/link';
 
 function pricing() {
   return (
@@ -14,9 +15,9 @@ function pricing() {
         <div className="container">
           <div className="price-content">
             <div className="price-detail">
-              <h2 className='display-5 fw-bolder'>Choose The Plan That's Right For You</h2>
+              <h2 className='display-5 fw-bolder'>Choose The Plan That is Right For You</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore hic voluptatem, sit harum illum.</p>
-              <a href="/contact" className='btn'>Contact Us</a>
+              <Link href="/contact" className='btn'>Contact Us</Link>
             </div>
           </div>
         </div>
@@ -40,7 +41,7 @@ function pricing() {
                 <p>Quam adipiscing vitae proin</p>
                 <p>Quam adipiscing vitae proin</p>
                 <p>Massa ultricies mi quis hendrerit</p>
-                <a href="/enroll" className='btn sub-button'>Get This Plan</a>
+                <Link href="/enroll" className='btn sub-button'>Get This Plan</Link>
               </div>
             </div>
             <div className="subscribe-detail">
@@ -54,7 +55,7 @@ function pricing() {
                 <p>Quam adipiscing vitae proin</p>
                 <p>Quam adipiscing vitae proin</p>
                 <p>Massa ultricies mi quis hendrerit</p>
-                <a href="/enroll" className='btn sub-button'>Get This Plan</a>
+                <Link href="/enroll" className='btn sub-button'>Get This Plan</Link>
               </div>
             </div>
             <div className="subscribe-detail">
@@ -68,7 +69,7 @@ function pricing() {
                 <p>Quam adipiscing vitae proin</p>
                 <p>Quam adipiscing vitae proin</p>
                 <p>Massa ultricies mi quis hendrerit</p>
-                <a href="/enroll" className='btn sub-button'>Get This Plan</a>
+                <Link href="/enroll" className='btn sub-button'>Get This Plan</Link>
               </div>
             </div>
           </div>

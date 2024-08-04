@@ -14,25 +14,25 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-detail">
           <h5 className="fw-bolder">EXPLORE</h5>
-          <p><a href="/">Home</a></p>
-          <p><a href="/about">About Us</a></p>
-          <p><a href="/pricing">Pricing</a></p>
-          <p><a href="/courses">Courses</a></p>
-          <p><a href="/contact">Contact</a></p>
+          <p><Link href="/">Home</Link></p>
+          <p><Link href="/about">About Us</Link></p>
+          <p><Link href="/pricing">Pricing</Link></p>
+          <p><Link href="/courses">Courses</Link></p>
+          <p><Link href="/contact">Contact</Link></p>
         </div>
         <div className="footer-detail">
           <h5 className="fw-bolder">ENTREPRISE</h5>
-          <p><a href="#">Our Partners</a></p>
-          <p><a href="#">Become a partner</a></p>
-          <p><a href="#">Partners Laws</a></p>
-          <p><a href="#">Our services</a></p>
+          <p><Link href="#">Our Partners</Link></p>
+          <p><Link href="#">Become a partner</Link></p>
+          <p><Link href="#">Partners Laws</Link></p>
+          <p><Link href="#">Our services</Link></p>
         </div>
 
       
         <div className="section-footer-detail">
           <div className="section-footer-text">
-            <h5>RESEAUX SOCIAUX</h5>
-            <p>Suivez nous sur</p>
+            <h5>SOCIAL MEDIA</h5>
+            <p>Follow Us</p>
             <div className="icons">
               <span>
                 <svg fill="orange" width="30px" height="30px" viewBox="-7 -2 24 24" xmlns="http://www.w3.org/2000/svg"

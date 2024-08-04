@@ -24,8 +24,8 @@ export default function Home() {
           <div className="home-content text-white">
             <h2 className='display-4 fw-bolder'>Welcome To <span className='text-warning'>E</span>learn School</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex dignissimos omnis rem accusantium necessitatibus <br /> similique assumenda quasi veritatis nobis consequuntur?</p>
-            <a href="/courses" className='btn btn-warning text-white btn-lg'>Learn more</a>
-            <a href="/contact" className='btn btn-danger ms-2 text-white btn-lg'>Contact Us</a>
+            <Link href="/courses" className='btn btn-warning text-white btn-lg'>Learn more</Link>
+            <Link href="/contact" className='btn btn-danger ms-2 text-white btn-lg'>Contact Us</Link>
           </div>
         </div>
 
@@ -111,7 +111,7 @@ export default function Home() {
             <br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure consequatur tenetur quod iusto facere cupiditate et, reprehenderit doloremque inventore rerum earum quam harum quibusdam praesentium possimus omnis autem! Porro delectus harum dolorum sed voluptatum ipsa optio vel corrupti autem placeat.</p>
 
-            <a href="#" className='btn btn-danger btn-lg'>Learn more</a>
+            <Link href="#" className='btn btn-danger btn-lg'>Learn more</Link>
           </div>
         </div>
       </div>
@@ -318,7 +318,7 @@ export default function Home() {
                 </h2>
                 <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div className="accordion-body">
-                    <p>We provide comprehensive career services including resume reviews, mock interviews, and job search strategies. While we don't guarantee job placement, our dedicated career team works closely with you to maximize your employability and connect you with our extensive network of hiring partners.</p>
+                    <p>We provide comprehensive career services including resume reviews, mock interviews, and job search strategies. While we do not guarantee job placement, our dedicated career team works closely with you to maximize your employability and connect you with our extensive network of hiring partners.</p>
                   </div>
                 </div>
               </div>

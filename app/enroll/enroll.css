@@ -30,6 +30,9 @@
   }
 }
 .enroll-container .enroll-content .develop .develop-detail {
+  display: grid;
+  place-content: center;
+  grid-template-columns: 1fr;
   background-color: #6c757d;
   padding: 10px;
   border-radius: 10px;
