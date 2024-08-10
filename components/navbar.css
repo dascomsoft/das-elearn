@@ -1,9 +1,22 @@
+@media (max-width: 768px) {
+  nav .navigation {
+    display: grid;
+    place-items: center;
+  }
+}
 nav .head-link {
+  font-weight: bolder;
+}
+nav .head-link::after {
+  display: block;
+  content: "";
+  width: 0%;
+  height: 4px;
+  border-radius: 15px;
   font-weight: bold;
   transition: all ease 0.5s;
-  color: white;
+  background-color: rgb(252, 247, 247);
 }
-nav .head-link:hover {
-  color: rgb(31, 4, 4);
-  transform: translateX(7px);
+nav .head-link:hover::after {
+  width: 50px;
 }/*# sourceMappingURL=navbar.css.map */

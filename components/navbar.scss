@@ -1,11 +1,27 @@
-nav{
-    .head-link{
-        font-weight: bold;
-        transition: all ease 0.5s;
-        color:white;
-        &:hover{
-            color:rgb(31, 4, 4);
-            transform: translateX(7px);
+nav {
+
+    .navigation {
+        @media(max-width:768px) {
+            display: grid;
+            place-items: center;
+        }
+    }
+
+    .head-link {
+        font-weight: bolder;
+        &::after {
+            display: block;
+            content: '';
+            width: 0%;
+            height: 4px;
+            border-radius: 15px;
+            font-weight: bold;
+            transition: all ease 0.5s;
+            background-color: rgb(252, 247, 247);
+        }
+
+        &:hover::after {
+            width: 50px;
         }
     }
 }

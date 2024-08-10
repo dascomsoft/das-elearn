@@ -20,7 +20,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon icon-btn"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav aria-expanded ms-auto">
+          <ul className="navbar-nav aria-expanded ms-auto navigation">
             <li className="nav-item">
               <Link className="nav-link active head-link" aria-current="page" href="/">HOME</Link>
             </li>
@@ -39,7 +39,7 @@ const Navbar = () => {
               <Link className="nav-link active head-link" aria-current="page" href="/contact">CONTACT</Link>
             </li> 
             <li className="nav-item">
-              <Link className="nav-link active btn bg-danger btn-lg ms-5" aria-current="page" href="/enroll">ENROLL NOW</Link>
+              <Link className="nav-link active btn bg-danger btn-lg mx-auto px-4 py-2 fw-bolder" aria-current="page" href="/enroll">ENROLL NOW</Link>
             </li>
           </ul>
         </div>
