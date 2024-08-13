@@ -23,10 +23,32 @@ const courses = () => {
                 <Image src={lesson.image} alt='picture' className='course-image' />
                 <h3 className='fw-bolder mt-3'>{lesson.title}</h3>
                 <div className="d-flex fs-5">
-                  <span className='text-danger fw-bolder'>&#8902;</span>
-                  <span className='text-danger fw-bolder'>&#8902;</span>
-                  <span className='text-danger fw-bolder'>&#8902;</span>
-                  <span className='text-danger fw-bolder'>&#8902;</span>
+
+                <span>
+            <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+              <title>star</title>
+              <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+            </svg>
+          </span>
+          <span>
+            <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+              <title>star</title>
+              <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+            </svg>
+          </span>
+          <span>
+            <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+              <title>star</title>
+              <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+            </svg>
+          </span>
+          <span>
+            <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+              <title>star</title>
+              <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+            </svg>
+          </span>
+
                 </div>
                 <br />
                 <i>{lesson.teacher}</i>

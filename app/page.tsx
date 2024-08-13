@@ -8,7 +8,6 @@ import stu2 from '../images/stu2.jpg'
 import css from '../images/css.png'
 import html from '../images/html.png'
 import learn from '../images/01.webp'
-import { lessons } from '@/helper/lessons';
 
 
 
@@ -64,8 +63,8 @@ export default function Home() {
             <div className='develop'>
               <div className='develop-detail'>
                 <div className='d-flex'>
-                <svg className='icon-image' fill="orange" width="50px" height="50px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21,14H20V7a3,3,0,0,0-3-3H7A3,3,0,0,0,4,7v7H3a1,1,0,0,0-1,1v2a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V15A1,1,0,0,0,21,14ZM6,7A1,1,0,0,1,7,6H17a1,1,0,0,1,1,1v7H6ZM20,17a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V16H20Z" /></svg>
-                <h3 className='fw-bolder ms-2 mt-2'>Global Tech Network</h3>
+                  <svg className='icon-image' fill="orange" width="50px" height="50px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21,14H20V7a3,3,0,0,0-3-3H7A3,3,0,0,0,4,7v7H3a1,1,0,0,0-1,1v2a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V15A1,1,0,0,0,21,14ZM6,7A1,1,0,0,1,7,6H17a1,1,0,0,1,1,1v7H6ZM20,17a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V16H20Z" /></svg>
+                  <h3 className='fw-bolder ms-2 mt-2'>Global Tech Network</h3>
                 </div>
                 <div>
                   <p className='mt-3'>Connect with a worldwide community of developers, mentors, and industry leaders. Collaborate on projects, share insights, and build lasting professional relationships.</p>
@@ -170,10 +169,33 @@ export default function Home() {
                 <div className="check-a"></div>
                 <div className='ms-2'>
                   <h4 className='fw-bolder'>Computer <br /> Programming Basic</h4>
-                  <span>&#8902;</span>
-                  <span>&#8902;</span>
-                  <span>&#8902;</span>
-                  <span>&#8902;</span>
+
+
+                  <span>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </span>
+                  <span>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </span>
+                  <span>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </span>
+                  <span>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </span>
+
                   <p>by Adrian Educom school</p>
                   <p className='text-primary mt-0 fw-bolder para'>48 lectures ( 280 Hours)</p>
                 </div>
@@ -193,10 +215,32 @@ export default function Home() {
                 <div><Image src={css} className='check-b' alt='css picture' /></div>
                 <div className='ms-2'>
                   <h4 className='fw-bolder'>Computer CSS3  <br />Programming</h4>
-                  <span>&#8902;</span>
-                  <span>&#8902;</span>
-                  <span>&#8902;</span>
-                  <span>&#8902;</span>
+
+                  <span>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </span>
+                  <span>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </span>
+                  <span>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </span>
+                  <span>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </span>
+
                   <p>by Tiffany Educom school</p>
                   <p className='text-primary mt-0 fw-bolder para'>48 lectures ( 280 Hours)</p>
                 </div>
@@ -215,10 +259,32 @@ export default function Home() {
                 <div><Image src={html} className='check-c' alt='html picture' /></div>
                 <div className='ms-2'>
                   <h4 className='fw-bolder'>Web-site <br /> Development Pro</h4>
-                  <span>&#8902;</span>
-                  <span>&#8902;</span>
-                  <span>&#8902;</span>
-                  <span>&#8902;</span>
+
+                  <span>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </span>
+                  <span>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </span>
+                  <span>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </span>
+                  <span>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </span>
+
                   <p>by Mc Gregor Educom school</p>
                   <p className='text-primary mt-0 fw-bolder para'>30 lectures (180 Hours)</p>
                 </div>

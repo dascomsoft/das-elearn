@@ -43,7 +43,7 @@ const CourseDetail = ({ params }: { params: { id: string } }) => {
         <div className='detail-content'>
           <Image src={course.image} alt={course.title} id='image-detail' />
           <span className='text-white fw-bolder display-5'>{course.title}</span>
-          <span className='text-warning fw-bolder'>Teacher: {course.teacher}</span>
+          <span className='text-warning fw-bolder'>{course.teacher}</span>
           <span className='text-white description'>{course.description}</span>
         </div>
         <div className="container">
@@ -53,10 +53,30 @@ const CourseDetail = ({ params }: { params: { id: string } }) => {
               <span className='fs-4'> 1,152,628 already registered</span>
             </div>
             <div className='text-danger fw-bolder icons'>
-              <span>&#8902;</span>
-              <span>&#8902;</span>
-              <span>&#8902;</span>
-              <span>&#8902;</span>
+            <span>
+            <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+              <title>star</title>
+              <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+            </svg>
+          </span>
+          <span>
+            <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+              <title>star</title>
+              <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+            </svg>
+          </span>
+          <span>
+            <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+              <title>star</title>
+              <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+            </svg>
+          </span>
+          <span>
+            <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+              <title>star</title>
+              <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+            </svg>
+          </span>
             </div>
             <i className='text'>more than 99% of students rate this course content and results as Super</i>
           </div>
